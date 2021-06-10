@@ -20,7 +20,7 @@ The crawler is based on ScraPy. Since the Lenovo support website uses JavaScript
 
 For the broken link identification logic, the crawler will first try to find the alerted link name in the document. If found, then it would follow the link and if "Page Not Found" is in the header of the resulting page. If so, it would write down the information to the output report. If no matches is found, it would try to crawl all the available URL in the document and record any that leads to "Page Not Found"
 
-Installation
+## Installation
 - Install Docker
 - Install all requirements in the requirements.txt file
 - Run the crawler with command "docker run -it -p 8050:8050 --rm scrapinghub/splash"
