@@ -1,7 +1,7 @@
 # broken_link_detection
  A Python-based ScraPy scrawler to detect broken links in Lenovo's knowledge management base
  
- ## Analysis Motivation
+ ## Motivation
  Lenovo Knowledge Management base is an important piece of Lenovo support platform. It hosts a large number of self-help documents to address different issues related to a variety of products. However, customers are complaining that there are links within many documents that lead to a "Page Not Found" result. These documents are considered documents with broken links. The current broken link identification process is consist of receiving alerts of all possible broken links from Adobe Analytics and manually verify every single broken link, which is really time-consuming and inefficient. 
  
  The project leverages the Scrapy web crawler functionalities to crawl through all the Adobe Analytics alerted broken links, determine if they indeed lead to "Page Not Found", and generate a broken link report with document IDs, document title, document country codes, document languages, document links, broken link titles, and broken link URLs
